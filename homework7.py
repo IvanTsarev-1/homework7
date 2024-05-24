@@ -1,0 +1,18 @@
+my_dict = {'Anna': 1987, 'Ivan': 1977, 'Petr': 1976}
+print(my_dict)
+print(my_dict.get('Anna'))
+print(my_dict.get('Vanna'))
+my_dict.update({'Dima': 1980, "oleg" : 1967})
+print(my_dict)
+a = my_dict.pop('Ivan')
+print(my_dict)
+print(a)
+print(my_dict)
+my_set = [1, 2, 1, 3, 2, 'Ivan', True]
+my_set = set(my_set)
+print(my_set)
+print(my_set.add(5))
+print(my_set.add(7))
+print(my_set)
+print(my_set.discard(7))
+print(my_set)
